@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="#">
+        <label for="firstName">First Name:*</label>
+        <input type="text" id="firstName" required>
+        <br>
+        <label for="lastName">Last Name:*</label>
+        <input type="text" id="lastName" required>
+        <br>
+        <label for="email">Email Addres:*</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="pass">Password:*</label>
+        <input type="password" id="pass" required>
+        <br>
+        <label for="passConfirm">Confirm Password:*</label>
+        <input type="password" id="passConfirm" required>
+        <br>
+        <label for="birthday">Birthday: </label>
+        <input type="date" id="birthday">
+        <br>
+        <label for="gender">Gender Identify:</label>
+        <br>
+        <input type="radio" id="gender" name="gender">Male
+        <input type="radio" id="gender" name="gender">Female
+        <input type="radio" id="gender" name="gender">Non-Binary
+        <input type="radio" id="gender" name="gender">I prefer not to answer
+        <br>
+        <label for="description">A short description about myself:</label>
+        <br>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+        <br>
+        <label for="languaje">Favorite Language:</label>
+        <select name="languaje" id="languaje">
+            <option value="languaje">JavaScript</option>
+            <option value="languaje">Python</option>
+            <option value="languaje">React</option>
+        </select>
+        <br>
+        <input type="checkbox">
+        <label for="checkbox" id="checkbox">Yes, i would like to receive periodic email updates</label>
+        <br>
+        <input type="submit" name="Create" id="submit" value="Create Account">
+    </form>
+    <p>* Indicates a required field</p>
+</body>
+</html>
